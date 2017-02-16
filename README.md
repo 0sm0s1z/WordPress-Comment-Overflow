@@ -1,9 +1,9 @@
 # WordPress-Comment-Overflow
 This module exploits a XSS vulnerability found in multiple WordPress versions:
-*4.2
-*4.1.2
-*4.1.1
-*3.9.3 
+* 4.2
+* 4.1.2
+* 4.1.1
+* 3.9.3 
 
 This vulnerability allows an unauthenticated attacker to inject arbitrary JavaScript code into comment fields. The module utilizes administrator authenticated XSS escalation through the WordPress plugin editor to gain remote code execution.
 
